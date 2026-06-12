@@ -1,3 +1,4 @@
+
 # AI Research Navigator
 
 ## Overview
@@ -202,3 +203,6 @@ python -m src.evaluation.run_evaluation
 ## Conclusion
 
 AI Research Navigator demonstrates how retrieval, citation grounding, refusal handling, and agent-based workflows can be combined to build a trustworthy research assistant. The project prioritizes evidence-backed responses and transparent information retrieval, making it more suitable for educational and research settings than traditional conversational systems.
+=======
+# AI-Research-Navigator
+

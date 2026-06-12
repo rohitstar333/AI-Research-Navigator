@@ -1,0 +1,29 @@
+[project]
+name = "ai-research-navigator-corpus"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "html2text>=2025.4.15",
+    "langgraph>=1.2.4",
+    "ollama>=0.6.2",
+    "pydantic-settings>=2.14.1",
+    "pymupdf>=1.27.2.3",
+    "qdrant-client>=1.18.0",
+    "rank-bm25>=0.2.2",
+    "requests>=2.34.2",
+    "sentence-transformers>=5.5.1",
+    "structlog>=26.1.0",
+    "trafilatura>=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "detect-secrets>=1.5.0",
+    "mypy>=2.1.0",
+    "pre-commit>=4.6.0",
+    "pytest>=9.0.3",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.15.15",
+]
